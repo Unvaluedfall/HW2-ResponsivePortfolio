@@ -11,38 +11,111 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../HW2-ResponsivePortfolio/Assets/css/portfolio.css">
     
-    <!-- The NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-        <!-- My Name in NavBar -->
-        <span class="navbar-brand h1">Jordon</span>
+    <!-- The Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+      <!-- My Name in NavBar -->
+      <span class="navbar-brand h1">Jordon</span>
+
+      <!-- The Button in the navbar -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       
-        <!-- The Button in the navbar -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <!-- Whats in the navbar -->
-        <div class="navbar-collapse collapse" id="navbarToggler">
-          <ul class="navbar-nav ml-auto ">
-            <li class="nav-item text-right">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active text-right">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item text-right">
-              <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      
+      <!-- Whats in the navbar -->
+      <div class="navbar-collapse collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item text-right">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active text-right">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
       </div>
+    </div>  
+  </nav>
       </nav>
       
 </head>
 <body>
-    
+  <div class="container">
+    <!-- Heading Row -->
+    <div class="row">
+      <div class="col-12">
+        <h1>Portfolio</h1>
+          <hr>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="card">
+            <img src="./Assets/images/cloud.jpg" class="card-img img-thumbnail">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-center">Project</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+            <img src="./Assets/images/code.jpg" class="card-img img-thumbnail">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-center">Project</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+            <img src="./Assets/images/download.jpg" class="card-img img-thumbnail">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-center">Project</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+            <img src="./Assets/images/husky.jpg" class="card-img img-thumbnail">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-center">Project</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+            <img src="./Assets/images/images.jpg" class="card-img img-thumbnail">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-center">Project</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+            <img src="./Assets/images/static.jpg" class="card-img img-thumbnail">
+          <div class="card-img-overlay">
+            <h3 class="card-title text-center">Project</h3>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  
+  
+  </div>
 </body>
 </html>

@@ -15,7 +15,10 @@
 
 /* Xlg */
 @media (min-width: 1200px) { 
-    
+    #bodyContainer{
+        width: 70%;
+        
+    }
 }
 
 /* Style */
@@ -38,3 +41,19 @@
     margin-top: 50px;
     padding: 20px;
   }
+    
+    /* Card Classes */
+    .card{
+        margin: auto;
+    }
+    .card-title{
+        margin-top: 160px;
+        background-color: rgb(88, 85, 85);
+        color: white;
+        bottom: 0px;
+        position: absolute;
+        width: 200px;
+    }
+       
+
+  /* Ids */

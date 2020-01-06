@@ -1,22 +1,23 @@
 /* Sm */
 @media (min-width: 575px) {
     
-}
+    }
 
 /* Md */
 @media (min-width: 767px) { 
     
 }
-
+   
 /* Lg */
 @media (min-width: 991px) { 
-    
+       
 }
-
+  
 /* Xlg */
 @media (min-width: 1200px) { 
     
 }
+
 
 /* Style */
 * {
@@ -38,3 +39,4 @@
     margin-top: 50px;
     padding: 20px;
   }
+  
